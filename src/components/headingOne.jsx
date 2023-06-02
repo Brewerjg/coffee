@@ -12,12 +12,13 @@ const Heading_one=()=> {
     <div name='home' className=' w-full h-full'>
         <video src={VideoRoast} autoPlay loop muted></video>
 
-        <div className='absolute text-white top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2'>
-            <p className='hidden lg:block text-5xl underline decoration-[#00a6be] py-4'>Welcome to Tupelo Coffee</p>
+        {/* Container */}
+        <div className='  bg-gradient-to-b from-[#b1b9a6] via-[#b1b9a6] to-[#cde2e9] mx-auto p-4 flex flex-col items-center w-full h-full '>
+        <div className=' text-white 
+        '>
+            <p className=' text-5xl underline decoration-[#00a6be] py-4'><span className='hidden md:inline'>Welcome to</span> Tupelo Coffee</p>
             <p className='hidden lg:block text-2xl p-4'>We are providers of the best coffee products in the south.</p>
         </div>
-        {/* Container */}
-        <div className=' bg-[#b1b9a6] mx-auto p-4 flex flex-col items-center w-full h-full '>
 
             {/* grid */}
             <div className='my-8 grid 2xl:grid-cols-5 xl:grid-cols-4 sm:grid-cols-2 md:grid-cols-2 justify-center gap-8 p-6'>
